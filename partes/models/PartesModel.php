@@ -166,14 +166,16 @@ class PartesModel extends Conexion
     public function traerCargadoresDisponibles()
     {
         $sql = "select id from tipoparte where descripcion = 'Cargador' ";
+        // die($sql); 
         $consulta = mysql_query($sql,$this->connectMysql());
         $ArridTipoParte = mysql_fetch_assoc($consulta);
         $idTipoParteDisco = $ArridTipoParte['id'];
+        // die($idTipoParteDisco);
         $sql = "select p.id,t.descripcion as descriParte, s.descripcion as descriSubParte, p.capacidad,p.cantidad  
         from  partes p
         inner join subtipoParte s on (s.id = p.idSubtipoParte )
         inner join tipoparte t on (t.id = s.idParte)
-        where s.descripcion = 'CARGADOR'    
+        where s.idParte = ".$idTipoParteDisco."    
         and p.idHardware = 0
         and p.idEstadoParte = 0
         ";

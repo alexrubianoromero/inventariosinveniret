@@ -920,7 +920,7 @@ class hardwareController extends controllerClass
         // die('antes de movimiento ');
         $this->MovParteModel->registrarAgregarParteAHardware($infoMov);
         $ramODisco = 'c'; //porque es un cargador
-        $this->partesModel->asociarParteAHardware($request['idHardware'],$request['idCargador'],'idCargador',$ramODisco);
+        $this->partesModel->asociarParteAHardware($request['idHardware'],$request['idCargador'],'idCargador',$ramODisco,$request['idCargador']);
 
         echo ' Agregado!!';
         // $this->model->asociarParteEnTablaHardware($request);
