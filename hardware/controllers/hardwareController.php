@@ -714,20 +714,37 @@ class hardwareController extends controllerClass
         // print_r($request); 
         // echo '</pre>';
         // die('');
-        $tipoMov = 1; //es una entrada al inventario porque vuelve una parte  
-        $cantidadParaActualizar = 1; 
-        $data = $this->partesModel->sumarDescontarPartes($tipoMov,$request['idDisco'],$cantidadParaActualizar);
-        $this->model->desligarDiscoDeEquipo($request);
-        $infoMov = new stdClass();
-        $infoMov->idParte = $request['idDisco'];
-        $infoMov->idHardware = $request['idHardware'];
-        $infoMov->tipoMov = $tipoMov;
-        $infoMov->observaciones = 'Se quita disco de Hardware id No '.$request['idHardware'];
-        $infoMov->loquehabia = $data['loquehabia']; 
-        $infoMov->loquequedo = $data['loquequedo']; 
-        $infoMov->query = $data['query'];
-        $infoMov->cantidadQueseAfecto = $data['cantidadQueseAfecto'];
 
+        $existeIdSubtipoEnPartes = $this->partesModel->verificarIdSubparteEnParte($request['idDisco']); 
+        //  die ('existe id en parte '.$existeIdSubtipoEnPartes);
+         if($existeIdSubtipoEnPartes==0)
+         {
+             //crear el registro en partes 
+                    $infoGrabar['isubtipo'] = $request['idDisco'];
+                    $infoGrabar['capacidad'] = 0;
+                    $infoGrabar['cantidad'] = 1;
+                    $infoGrabar['costo'] = 0;
+                    $this->partesModel->grabarParteIndividual($infoGrabar);
+         }
+         else{
+             
+                     $tipoMov = 1; //es una entrada al inventario porque vuelve una parte  
+                     $cantidadParaActualizar = 1; 
+                     $data = $this->partesModel->sumarDescontarPartes($tipoMov,$request['idDisco'],$cantidadParaActualizar);
+                     $infoMov = new stdClass();
+                     $infoMov->idParte = $request['idDisco'];
+                     $infoMov->idHardware = $request['idHardware'];
+                     $infoMov->tipoMov = $tipoMov;
+                     $infoMov->observaciones = 'Se quita disco de Hardware id No '.$request['idHardware'];
+                     $infoMov->loquehabia = $data['loquehabia']; 
+                     $infoMov->loquequedo = $data['loquequedo']; 
+                     $infoMov->query = $data['query'];
+                     $infoMov->cantidadQueseAfecto = $data['cantidadQueseAfecto'];
+                     
+            }
+                    
+                    
+        $this->model->desligarDiscoDeEquipo($request);
         $this->MovParteModel->grabarMovDesligardeHardware($infoMov);
 
         echo 'Se ha desligado este disco '; 
@@ -868,7 +885,7 @@ class hardwareController extends controllerClass
         // die('antes de movimiento ');
         $this->MovParteModel->registrarAgregarParteAHardware($infoMov);
         $ramODisco = 'd'; //porque es una ram 
-        $this->partesModel->asociarParteAHardware($request['idHardware'],$request['idDisco'],$request['numeroDisco'],$ramODisco);
+        $this->partesModel->asociarParteAHardware($request['idHardware'],$request['idDisco'],$request['numeroDisco'],$ramODisco,$request['idDisco']);
 
         echo 'Disco Agregado!!';
         // $this->model->asociarParteEnTablaHardware($request);
