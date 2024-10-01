@@ -663,27 +663,48 @@ class hardwareController extends controllerClass
     public function quitarRam($request)
     {
         //        echo '<pre>';
-        // print_r($_SESSION); 
+        // print_r($request); 
         // echo '</pre>';
         // die('quitar ram');
         // echo 'llego a controller y quitar ram '; 
         //desligar la parte del hardware
+        // verifique si el id de la subparte existe en partes 
+        //consulte si ese id existe en partes 
+        $existeIdSubtipoEnPartes = $this->partesModel->verificarIdSubparteEnParte($request['idRam']); 
 
-        $tipoMov = 1; //es una entrada al inventario porque vuelve una parte  
-        $cantidadParaActualizar = 1; 
-        $data = $this->partesModel->sumarDescontarPartes($tipoMov,$request['idRam'],$cantidadParaActualizar);
+        //  die ('existe id en parte '.$existeIdSubtipoEnPartes);
+
+        if($existeIdSubtipoEnPartes==0)
+        {
+            //crear el registro en partes 
+            $infoGrabar['isubtipo'] = $request['idRam'];
+            $infoGrabar['capacidad'] = 0;
+            $infoGrabar['cantidad'] = 1;
+            $infoGrabar['costo'] = 0;
+
+            $this->partesModel->grabarParteIndividual($infoGrabar);
+        }
+        else
+        {
+            // die('entro aca porque ya existe');
+            $tipoMov = 1; //es una entrada al inventario porque vuelve una parte  
+            $cantidadParaActualizar = 1; 
+            $data = $this->partesModel->sumarDescontarPartes($tipoMov,$request['idRam'],$cantidadParaActualizar);
+            $infoMov = new stdClass();
+            $infoMov->idParte = $request['idRam'];
+            $infoMov->idHardware = $request['idHardware'];
+            $infoMov->tipoMov = $tipoMov;
+            $infoMov->observaciones = 'Se quita memoria ram de Hardware id No '.$request['idHardware'];
+            $infoMov->loquehabia = $data['loquehabia']; 
+            $infoMov->loquequedo = $data['loquequedo']; 
+            $infoMov->query = $data['query'];
+            $infoMov->cantidadQueseAfecto = $data['cantidadQueseAfecto'];
+        }
+        
+        
         $this->model->desligarRamDeEquipo($request);
-        $infoMov = new stdClass();
-        $infoMov->idParte = $request['idRam'];
-        $infoMov->idHardware = $request['idHardware'];
-        $infoMov->tipoMov = $tipoMov;
-        $infoMov->observaciones = 'Se quita memoria ram de Hardware id No '.$request['idHardware'];
-        $infoMov->loquehabia = $data['loquehabia']; 
-        $infoMov->loquequedo = $data['loquequedo']; 
-        $infoMov->query = $data['query'];
-        $infoMov->cantidadQueseAfecto = $data['cantidadQueseAfecto'];
-
         $this->MovParteModel->grabarMovDesligardeHardware($infoMov);
+
         echo 'La Ram fue desasociada del hardware';
     }
 

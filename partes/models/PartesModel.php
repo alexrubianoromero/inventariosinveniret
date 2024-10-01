@@ -40,11 +40,11 @@ class PartesModel extends Conexion
     //esta es para cuando se crean las partes independientes 
     public function grabarParteIndividual($request)
     {
-        $sql = "insert into partes (idSubtipoParte,capacidad,comentarios,cantidad,idSucursal,costo)
-                values('".$request['isubtipo']."','".$request['capacidad']."'
+        $sql = "insert into partes (id,idSubtipoParte,capacidad,comentarios,cantidad,idSucursal,costo)
+                values('".$request['isubtipo']."','".$request['isubtipo']."','".$request['capacidad']."'
                 ,'Creacion desde Modulo','".$request['cantidad']."','".$_SESSION['idSucursal']."','".$request['costo']."')
         ";
-        // die($sql); 
+        //  die($sql); 
         $consulta = mysql_query($sql,$this->connectMysql());
     }
    
@@ -54,6 +54,15 @@ class PartesModel extends Conexion
         $consulta = mysql_query($sql,$this->connectMysql());
         $parte = $this->get_table_assoc($consulta);
         return $parte;
+    }
+    public function verificarIdSubparteEnParte($idSubparte)
+    {
+        $sql = "select * from partes where id = '".$idSubparte."'  ";
+        $consulta = mysql_query($sql,$this->connectMysql());
+        $filas = mysql_num_rows($consulta); 
+        // echo 'numero de registros'.$filas; 
+        // die($filas); 
+        return $filas;
     }
     
     
