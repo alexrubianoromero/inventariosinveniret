@@ -1,0 +1,169 @@
+[22-Aug-2023 18:18:35 America/Bogota] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ctwtvsxj/public_html/inventarios/clientes/controllers/clientesController.php on line 31
+[22-Aug-2023 18:18:36 America/Bogota] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ctwtvsxj/public_html/inventarios/clientes/controllers/clientesController.php on line 31
+[22-Aug-2023 18:18:40 America/Bogota] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ctwtvsxj/public_html/inventarios/clientes/controllers/clientesController.php on line 31
+[22-Aug-2023 18:19:55 America/Bogota] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ctwtvsxj/public_html/inventarios/clientes/controllers/clientesController.php on line 31
+[22-Aug-2023 18:19:59 America/Bogota] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ctwtvsxj/public_html/inventarios/clientes/controllers/clientesController.php on line 31
+[22-Aug-2023 18:24:41 America/Bogota] PHP Fatal error:  Class 'ClienteModel' not found in /home/ctwtvsxj/public_html/inventarios/clientes/controllers/clientesController.php on line 18
+[22-Aug-2023 18:24:45 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:26:23 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:26:24 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:26:26 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:26:51 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:26:52 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:27:28 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:27:29 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:28:36 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:28:37 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:28:39 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:29:10 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:35:31 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:35:34 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:35:38 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:36:14 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:37:24 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[22-Aug-2023 18:37:26 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 07:54:20 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 07:57:58 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 07:58:06 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:00:16 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:01:38 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:01:46 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:02:06 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:02:12 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:02:20 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:02:59 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:03:42 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:03:45 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:03:48 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:04:29 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:05:24 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:06:50 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:06:57 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:08:06 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:08:58 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:10:18 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[23-Aug-2023 08:10:34 America/Bogota] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/ctwtvsxj/public_html/inventarios/conexion/Conexion.php on line 17
+[18-Mar-2024 16:45:59 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[18-Mar-2024 16:45:59 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[18-Mar-2024 17:23:52 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[18-Mar-2024 17:23:52 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[18-Mar-2024 17:53:32 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[18-Mar-2024 17:53:32 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[18-Mar-2024 17:53:42 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[18-Mar-2024 17:53:42 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[18-Mar-2024 17:53:47 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[18-Mar-2024 17:53:47 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[18-Mar-2024 17:56:50 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[18-Mar-2024 17:56:50 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[18-Mar-2024 17:56:52 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[18-Mar-2024 17:56:52 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[18-Mar-2024 17:58:54 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[18-Mar-2024 17:58:54 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[20-Mar-2024 11:11:04 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[20-Mar-2024 11:11:04 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[20-Mar-2024 14:21:35 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[20-Mar-2024 14:21:35 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[22-Mar-2024 12:43:19 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[22-Mar-2024 12:43:19 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[22-Mar-2024 12:43:49 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[22-Mar-2024 12:43:49 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[22-Mar-2024 12:43:57 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[22-Mar-2024 12:43:57 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[22-Mar-2024 12:49:54 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[22-Mar-2024 12:49:54 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[22-Mar-2024 12:50:27 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[22-Mar-2024 12:50:27 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[22-Mar-2024 12:52:34 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[22-Mar-2024 12:52:34 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[22-Mar-2024 12:52:36 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[22-Mar-2024 12:52:36 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[08-Jul-2024 17:28:29 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[08-Jul-2024 17:28:29 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[08-Jul-2024 17:29:34 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[08-Jul-2024 17:29:34 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[08-Jul-2024 17:46:45 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[08-Jul-2024 17:46:45 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[08-Jul-2024 17:46:55 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[08-Jul-2024 17:46:55 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Jul-2024 11:13:43 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Jul-2024 11:13:43 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Jul-2024 11:14:33 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Jul-2024 11:14:33 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Jul-2024 11:14:33 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Jul-2024 11:14:33 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Jul-2024 11:14:45 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Jul-2024 11:14:45 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Jul-2024 11:14:52 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Jul-2024 11:14:52 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Jul-2024 11:15:07 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Jul-2024 11:15:07 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 16:20:24 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 16:20:24 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 16:49:11 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 16:49:11 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 16:51:58 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 16:51:58 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 16:52:33 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 16:52:33 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 17:02:47 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 17:02:47 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 17:02:50 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 17:02:50 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 17:14:49 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 17:14:49 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 17:15:37 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 17:15:37 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 17:16:04 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 17:16:04 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 17:16:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 17:16:15 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 17:20:20 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 17:20:20 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 17:21:26 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 17:21:26 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 17:35:13 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 17:35:13 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 17:40:34 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 17:40:34 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 17:41:03 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 17:41:03 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[16-Sep-2024 17:41:11 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[16-Sep-2024 17:41:11 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Sep-2024 11:55:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Sep-2024 11:55:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Sep-2024 12:00:40 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Sep-2024 12:00:40 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Sep-2024 12:16:51 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Sep-2024 12:16:51 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Sep-2024 12:16:57 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Sep-2024 12:16:57 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Sep-2024 12:17:11 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Sep-2024 12:17:11 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Sep-2024 12:17:12 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Sep-2024 12:17:12 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Sep-2024 12:17:19 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Sep-2024 12:17:19 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Sep-2024 12:17:24 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Sep-2024 12:17:24 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Sep-2024 12:24:59 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Sep-2024 12:24:59 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Sep-2024 12:28:42 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Sep-2024 12:28:42 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Sep-2024 12:29:33 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Sep-2024 12:29:33 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[17-Sep-2024 12:30:21 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[17-Sep-2024 12:30:21 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[18-Sep-2024 11:54:55 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[18-Sep-2024 11:54:55 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[18-Sep-2024 16:38:46 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[18-Sep-2024 16:38:46 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[18-Sep-2024 17:10:41 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[18-Sep-2024 17:10:41 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[18-Sep-2024 17:10:44 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[18-Sep-2024 17:10:44 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[18-Sep-2024 17:15:44 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[18-Sep-2024 17:15:44 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[18-Sep-2024 17:55:31 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[18-Sep-2024 17:55:31 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
+[24-Sep-2024 11:26:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 36
+[24-Sep-2024 11:26:16 America/Bogota] PHP Warning:  Invalid argument supplied for foreach() in /home3/gioalf/invenireit.com/clientes/views/clientesView.php on line 68
